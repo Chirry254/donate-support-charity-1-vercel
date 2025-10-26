@@ -1,0 +1,10 @@
+{
+  "buildCommand": "chmod +x node_modules/.bin/vite && npm run build",
+  "installCommand": "npm ci || npm install",
+  "build": {
+    "env": {
+      "NODE_VERSION": "18"
+    }
+  },
+  "framework": "vite"
+}

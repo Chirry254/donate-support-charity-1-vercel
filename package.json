@@ -1,18 +1,19 @@
 {
   "name": "donate-support-charity-1-vercel",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "bash build.sh",
     "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^5.3.1",
-    "@vitejs/plugin-react": "^4.3.1"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.1"
   }
 }
