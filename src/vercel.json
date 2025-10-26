@@ -1,11 +1,6 @@
 {
-  "buildCommand": "bash build.sh",
   "installCommand": "npm install",
+  "buildCommand": "npx vite build",
   "outputDirectory": "dist",
-  "framework": "vite",
-  "build": {
-    "env": {
-      "NODE_VERSION": "18"
-    }
-  }
+  "framework": "vite"
 }
