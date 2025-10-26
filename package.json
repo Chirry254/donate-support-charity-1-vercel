@@ -1,21 +1,18 @@
 {
-  "name": "donate-support-charity-1",
+  "name": "donate-support-charity-1-vercel",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "@stripe/react-stripe-js": "^2.7.1",
-    "@stripe/stripe-js": "^3.3.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "stripe": "^16.6.0"
-  },
   "devDependencies": {
-    "@vitejs/plugin-react": "^5.1.0",
-    "typescript": "^5.3.3",
-    "vite": "^5.0.10"
+    "vite": "^5.3.1",
+    "@vitejs/plugin-react": "^4.3.1"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
